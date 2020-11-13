@@ -487,6 +487,97 @@ h1 a {
  /*=================================
   Exlpore styling ends here
 =================================*/ 
+/*=================================
+  recipes styling starts here
+=================================*/ 
+.recipes{
+  padding: 55px 0;
+  background-color: #FBF6FC;
+  text-align: center;
+}
+
+.filter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 65px;
+}
+
+.head-five{
+color: #444;
+text-transform: uppercase;
+font-size: 13px;
+margin-right: 10px;
+}
+
+.filter a{
+  padding: 6px 13px;
+  background-color: #B6B4B7;
+  color: #fff;
+  margin: 0 6px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: .5s;
+}
+
+.filter a.active,.filter a:hover{ background-color: #6DA29E; }
+
+.recipes-list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.recipes-list li{
+  width: 17%;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.recipes-list figure{
+  height: 240px;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.recipes-list img{ transition: .5s; }
+
+.recipes-list figure:hover img{
+  transform: scale(1.1);
+}
+
+.head-six{
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 10px 0 0;
+  cursor: pointer;
+}
+
+.recipes-list .heading-two{
+  margin-top: 5px;
+  font-size: 18px;
+}
+.view-more{
+  color: #35393E;
+  padding: 15.5px 73.5px;
+  border: 2px solid #68A49E;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 33px 0 68px;
+  transition: .5s;
+}
+.view-more:hover{
+  background-color: #68A49E;
+  border-color: #35393E;
+}
+ /*=================================
+  recipes styling ends here
+=================================*/ 
 
 /*=================================
   main styling ends here
