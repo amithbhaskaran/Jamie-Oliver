@@ -223,6 +223,7 @@ h1 a {
   display: flex;
   align-items: center;
   background-color: #FFFDFF;
+  border-bottom: 1px solid #C3C2BE;
 }
 
 .prev-button,.next-button{
