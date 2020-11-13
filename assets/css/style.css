@@ -589,6 +589,34 @@ margin-right: 10px;
 /*=================================
   footer styling starts here
 =================================*/ 
+footer{
+  padding: 20px;
+  background-color: #69A49E;
+}
+
+footer .wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer li{
+  margin: 0 7px;
+}
+
+footer a, footer h6{
+font-size: 13px;
+text-transform: uppercase;
+color: #fff;
+font-weight: 600;
+transition: .3s;
+}
+
+footer a:hover{
+  transform: scale(1.035);
+  color: #68A49E;
+  text-shadow: 1px 1px 3px #000;
+}
  /*=================================
   footer styling ends here
 =================================*/ 
