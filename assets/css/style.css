@@ -214,11 +214,102 @@ h1 a {
 /*=================================
   main styling starts here
 =================================*/
+/*=================================
+  banner styling starts here
+=================================*/ 
+.banner{
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  background-color: #FFFDFF;
+}
 
+.prev-button,.next-button{
+  position: absolute;
+  top: 49.5%;
+  width: 49px;
+  height: 49px;
+}
 
+.prev-button{ left: 2.3%; }
+.next-button{ right: 3%; }
 
+.previous,.next{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: crimson;
+  text-indent: -999999px;
+  border: 2px solid #69a49e;
+}
 
+.previous::before{ content: "\f104"; }
+.next::before{ content: "\f105"; }
 
+.previous::before,.next::before {
+  font-family: "FontAwesome";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  float: right;
+  text-indent: 0;
+  color: #69a49e;
+  line-height: 44px;
+  text-align: center;
+  font-size: 31px;
+}
+
+.slider{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.slider li{
+  width: 28%;
+  height: 490px;
+}
+
+.slider li:nth-child(4),.slider li:nth-child(5){ display: none; }
+.slider figure{ height: 413px; }
+.slider img{ height: 100%; }
+
+.heading-two{
+  margin-top: 13px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #565562;
+}
+
+.burger-content {
+  position: relative;
+  display: inline-block;
+  width: 258px;
+  border: 9px solid #9f865f;
+  border-right-color: #fff;
+  background-color: #9f865f;
+  text-indent: -999999px;
+  margin-top: 13px;
+}
+
+.burger-content::before {
+  content: "With Cheddar Cheese and Gherkins";
+  position: absolute;
+  top: -6px;
+  left: 0;
+  font-size: 11.5px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  float: right;
+  text-indent: 0;
+}
+ /*=================================
+  banner styling ends here
+=================================*/ 
 
 
 
@@ -229,13 +320,6 @@ h1 a {
 /*=================================
   footer styling starts here
 =================================*/ 
-
-
-
-
-
-
-
  /*=================================
   footer styling ends here
 =================================*/ 
