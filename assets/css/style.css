@@ -80,7 +80,9 @@ sub { bottom: -.25em; }
 
 .cf:after { clear: both; }
 .cf { *zoom: 1; }
-
+span{
+  display: inline-block;
+}
 /*for all*/
 
 a { 
@@ -92,7 +94,6 @@ li {
   display: inline-block;
   list-style-type: none;
 }
-
 /*for wrapper*/
 .wrapper {
   max-width: 1098px;
@@ -110,6 +111,23 @@ li {
 
 a{ color: #fff; }
 .bold{ font-weight: 600; }
+
+.third-head{
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 500;
+  color: #21293B;
+  margin-bottom: 6px;
+}
+.para{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+.brown{
+  color: #98886D;
+}
 /*=================================
   Header styling starts here
 =================================*/
@@ -188,6 +206,7 @@ h1 a {
 
 .hamburger{
   width: 30px;
+  border-bottom: 1px solid #C3C2BE;
   height: 25px;
   display: flex;
   align-items: center;
@@ -320,6 +339,82 @@ h1 a {
   banner styling ends here
 =================================*/ 
 
+/*=================================
+    inspired styling starts here
+=================================*/ 
+
+.inspired{
+  padding: 55.5px 0;
+  height: 1022px;
+  background-color: #FBF6FC;
+  border-bottom: 1px solid #C3C2BE;
+  text-align: center;
+}
+
+.inspired-content{
+  margin:57px 0;
+  width: 65.2%;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.inspired-content li{
+  height: 277px;
+  width: 205px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.advertisement{
+  width: 31%;
+  float: right;
+  text-align: left;
+}
+
+.advertise{
+  margin: 73px 0 17px;
+  font-size: 12px;
+  font-weight: 600;
+  opacity: .7;
+}
+
+.advertisement figure{ height: 539px; }
+
+.advertisement img{
+  height: 100%;
+  object-fit: cover;
+}
+
+.advertise-content{
+  background-color: #3D8D96;
+  padding: 20px;
+}
+
+.head-four{
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #fff;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.advertise-content a{
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.advertise-content .fa{
+  margin-left: 10px;
+  font-size: 15px;
+}
+ /*=================================
+    inspired styling ends here
+=================================*/ 
 
 
 /*=================================
