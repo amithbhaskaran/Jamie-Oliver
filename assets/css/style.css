@@ -371,6 +371,9 @@ h1 a {
   margin-bottom: 10px;
 }
 
+.inspired-content a{ color: #565562; }
+.inspired-content img{ cursor: pointer; }
+
 .advertisement{
   width: 31%;
   float: right;
@@ -401,11 +404,7 @@ h1 a {
   margin-bottom: 10px;
 }
 
-.advertise-content a{
-  font-size: 16px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
+.advertise-content a{ font-size: 16px; }
 
 .advertise-content .fa{
   margin-left: 10px;
